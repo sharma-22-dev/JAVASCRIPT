@@ -294,7 +294,7 @@ console.log(sortedNumbers);
 
 let sentence = prompt("Enter a sentence:");
 
-console.log("----- String Analyzer -----");
+console.log("String Analyzer");
 
 console.log("Total Characters:", sentence.length);
 
@@ -422,7 +422,7 @@ let totalEmployees = employees.length;
 
 let averageSalary = totalSalary / totalEmployees;
 
-console.log("----- Employee Statistics -----");
+console.log("Employee Statistics");
 console.log("Total Employees:", totalEmployees);
 console.log("Total Salary: ₹" + totalSalary);
 console.log("Highest Salary: ₹" + highestPaid.salary);
