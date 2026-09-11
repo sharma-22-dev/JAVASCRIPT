@@ -59,7 +59,7 @@ function calculateSalary(employee) {
 
   let finalSalary = basicSalary + bonus;
 
-  console.log("----- Salary Details -----");
+  console.log("Salary Details");
   console.log("Name:", employee.name);
   console.log("Role:", employee.role);
   console.log("Basic Salary: ₹" + basicSalary);
