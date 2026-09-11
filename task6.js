@@ -317,7 +317,7 @@ console.log("After Replacement:", newSentence);
 let sentenceArray = sentence.split(" ");
 console.log("Sentence Array:", sentenceArray);
 
-// Final Mini Project - Employee Dashboard
+// Final Project - Employee Dashboard
 
 let employees = [
   {

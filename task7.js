@@ -1,5 +1,4 @@
 // TASK 1
-
 fetch("https://fakestoreapi.com/products")
   .then((response) => response.json())
   .then((products) => {
@@ -30,7 +29,7 @@ fetch("https://fakestoreapi.com/products")
       (product) => product.category === "electronics",
     );
 
-    console.log("===== FIRST ELECTRONICS PRODUCT =====");
+    console.log("FIRST ELECTRONICS PRODUCT");
     console.log(electronics);
 
     let total = products.reduce((sum, product) => sum + product.price, 0);
